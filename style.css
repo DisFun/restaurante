@@ -1,0 +1,72 @@
+.body1 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #EBC01E;
+  }
+ 
+  
+  .login-container {
+    background-color: black;
+    padding: 20px;
+    width: 330px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: beige;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e40e0e;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005F6B;
+  }
+  .boton{
+    color: white;
+  }
+  .combo-box {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Estilo para las opciones del combo box */
+.combo-box option {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo cuando se enfoca (click) en el combo box */
+.combo-box:focus {
+    border-color: #eb0d32;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body1">
+
+<div class="login-container">
+  <label for="dato"><h2>Registros</h2></label>
+  <form action="Insert_User.php" method="post">
+    <label for="username">Usuario:</label>
+    <input type="text" name="username" required>
+    <label for="password">Contrase&ntilde;a:</label>
+    <input type="password" name="password" required>
+    <label for="Tipos">Tipo de usuario:</label>
+
+    <select id="Tipos" class="combo-box" name="Tipos">
+        <option value="Administrador">Administrador</option>
+        <option value="Mesero">Mesero</option>
+    </select>
+    
+    <br>  <br>
+    <button type="submit">Registrar</button>
+    <br>  <br>
+  </form>
+  
+</div>
+
+</body>
+</html>

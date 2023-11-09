@@ -1,0 +1,141 @@
+
+body {
+  background-color: #dea218;
+  align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Alineación a la izquierda y a la derecha */
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: black;
+  }
+  
+  .toggle-button {
+    display: none;
+    font-size: 24px;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+ 
+  .imagen{
+    width: 20px;
+    height: auto;
+  }
+  /* Estilos para la tabla */
+  .styled-table {
+    width: 50%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    
+  }
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .styled-table th, .styled-table td {
+    padding: 10px;
+    border-bottom: 1px solid #511e0e;
+  }
+  
+  .styled-table th {
+    background-color: #eb8938;
+    font-weight: bold;
+  }
+  
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #dc883a;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #ffffff;
+  }
+
+  .combo-box {
+    width: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    align-content: center;
+}
+
+/* Estilo para las opciones del combo box */
+.combo-box option {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Estilo cuando se enfoca (click) en el combo box */
+.combo-box:focus {
+    border-color: #eb0d32;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 5px;
+  margin-inline-end: 5px;
+  font-weight: bold;
+}
+
+  
+  /* Estilos para la versión móvil */
+  @media only screen and (max-width: 600px) {
+    .toggle-button {
+      display: block;
+    }
+    
+    .navbar a {
+      display: block;
+      text-align: center;
+    }
+  }
+  .contenedor1 {
+    display: flex;
+    align-items: center; /* Esto centrará verticalmente los elementos */
+    height: 8vh; /* Establece la altura del div */
+  }
+  .contenedor2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 400px; /* Ancho máximo del segundo div */
+    margin: 0 auto; /* Centrar el div horizontalmente */
+    padding: 10px;
+  }
